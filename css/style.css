@@ -1,0 +1,120 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 40;
+}
+
+p {
+    margin-bottom: 50px;
+}
+
+.navbar {
+    float: right;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.color-orange {
+    color: tomato;
+}
+
+.about-me {
+    display: flex;
+}
+
+.half-width {
+    padding-top: 50px;
+    width: 50%;
+    margin-left: 10%;
+}
+
+.half-width img {
+    width: 100%;
+    /* margin-bottom: 60px; */
+    margin-left: 200px;
+}
+
+.half-width a {
+    margin-top: 40px;
+}
+
+.color-btn {
+    padding: 15px 50px;
+    background-image: linear-gradient(tomato, rgb(255, 99, 71));
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.working {
+    background-color: whitesmoke;
+    text-align: center;
+    height: 700px;
+    width: auto;
+}
+
+.ma-work {
+    padding: 5% 5%;
+}
+
+.work {
+    background-color: white;
+    padding: 3%;
+    height: 320px;
+    width: 33%;
+    border-radius: 10%;
+    margin: 10px;
+    text-align: left;
+}
+
+.work img {
+    width: 100%;
+    height: auto;
+}
+
+.inq {
+    height: 400px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.foot {
+    margin: 20%;
+    height: 200px;
+    width: 1200px;
+    background-image: url(../images/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    display: flex;
+}
+
+footer {
+    align-items: center;
+    margin: 0% 35%;
+    text-align: center;
+}
+
+footer img {
+    height: 50px;
+    padding: 3%;
+}
